@@ -107,7 +107,7 @@ function FormExample() {
                 isInvalid={!!errors.message}
                 style={{   marginLeft:'500px',backgroundColor:'orange' ,color:'white', fontSize:'30px' , border:'3px solid white',width:'50%' }}
               />
-              <Form.Control.Feedback type="invalid" style={{fontSize:'25px', backgroundColor:'white', marginLeft:'10px', borderRadius:'20px', fontWeight:'500' }}>
+              <Form.Control.Feedback type="invalid" style={{fontSize:'25px', backgroundColor:'white', marginLeft:'700px', borderRadius:'20px', fontWeight:'500', width:'400px' }}>
                 {errors.message}
               </Form.Control.Feedback>
             </Form.Group>
