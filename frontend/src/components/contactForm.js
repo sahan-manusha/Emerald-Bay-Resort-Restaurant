@@ -41,7 +41,7 @@ function FormExample() {
                 isInvalid={!!errors.name}
                 style={{   marginLeft:'15px',backgroundColor:'orange' ,color:'white', fontSize:'30px' , border:'3px solid white' }}
               />
-              <Form.Control.Feedback type="invalid">
+              <Form.Control.Feedback type="invalid" style={{fontSize:'25px', backgroundColor:'white', marginLeft:'10px', borderRadius:'20px', fontWeight:'500' }}>
                 {errors.name}
               </Form.Control.Feedback>
             </Form.Group>
@@ -56,7 +56,7 @@ function FormExample() {
                 isInvalid={!!errors.email}
                 style={{   marginLeft:'15px',backgroundColor:'orange' ,color:'white', fontSize:'30px' , border:'3px solid white' }}
               />
-              <Form.Control.Feedback type="invalid">
+              <Form.Control.Feedback type="invalid" style={{fontSize:'25px', backgroundColor:'white', marginLeft:'10px', borderRadius:'20px', fontWeight:'500' }}>
                 {errors.email}
               </Form.Control.Feedback>
             </Form.Group>
@@ -73,7 +73,7 @@ function FormExample() {
                 isInvalid={!!errors.phoneNumber}
                 style={{   marginLeft:'15px',backgroundColor:'orange' ,color:'white', fontSize:'30px' , border:'3px solid white' }}
               />
-              <Form.Control.Feedback type="invalid">
+              <Form.Control.Feedback type="invalid" style={{fontSize:'25px', backgroundColor:'white', marginLeft:'10px', borderRadius:'20px', fontWeight:'500' }}>
                 {errors.phoneNumber}
               </Form.Control.Feedback>
             </Form.Group>
@@ -88,7 +88,7 @@ function FormExample() {
                 isInvalid={!!errors.subject}
                 style={{   marginLeft:'15px',backgroundColor:'orange' ,color:'white', fontSize:'30px' , border:'3px solid white' }}
               />
-              <Form.Control.Feedback type="invalid">
+              <Form.Control.Feedback type="invalid" style={{fontSize:'25px', backgroundColor:'white', marginLeft:'10px', borderRadius:'20px', fontWeight:'500' }}>
                 {errors.subject}
               </Form.Control.Feedback>
             </Form.Group>
@@ -105,9 +105,9 @@ function FormExample() {
                 value={values.message}
                 onChange={handleChange}
                 isInvalid={!!errors.message}
-                style={{   marginLeft:'550px',backgroundColor:'orange' ,color:'white', fontSize:'30px' , border:'3px solid white',width:'50%' }}
+                style={{   marginLeft:'500px',backgroundColor:'orange' ,color:'white', fontSize:'30px' , border:'3px solid white',width:'50%' }}
               />
-              <Form.Control.Feedback type="invalid">
+              <Form.Control.Feedback type="invalid" style={{fontSize:'25px', backgroundColor:'white', marginLeft:'10px', borderRadius:'20px', fontWeight:'500' }}>
                 {errors.message}
               </Form.Control.Feedback>
             </Form.Group>
