@@ -1,0 +1,9 @@
+/*.deliveryridercontainer{
+    position: relative;
+    top: -800px;
+}*/
+
+.dashboard-container {
+    display: flex;
+  }
+  
