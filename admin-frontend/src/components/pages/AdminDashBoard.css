@@ -1,0 +1,39 @@
+
+.name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+  
+.name h1 {
+    font-weight: 700;
+    font-size: 55px;
+    text-align: center; 
+}
+  
+
+.adminlist{
+    margin-top: 50px;
+    padding-top: 10px;
+}
+
+.cardTitle{
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 800;
+    
+}
+
+
+.logbtn{
+    padding: 20px;
+    margin-top: 10px;
+    font-size: 25px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.card:hover{
+    background-color: gray;
+}
