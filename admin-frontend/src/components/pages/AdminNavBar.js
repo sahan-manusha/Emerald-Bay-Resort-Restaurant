@@ -7,6 +7,7 @@ export const AdminNavBar = () => {
     <div>
         <div className="navbar">
             <a href="#ggoogle.com"><img src={logo} alt="logo" style={{width:'150px', marginLeft:'50px'}} /></a>
+            
         </div>
     </div>
   )
