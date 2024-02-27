@@ -4,6 +4,8 @@ import './App.css';
 import { DeliverRiderDashBoard } from './components/pages/DeliveryRider/DeliverRiderDashBoard';
 import { AdminDashBoard } from "./components/pages/AdminDashBoard";
 import {AdminHome} from "./components/pages/Home";
+import {DeliveryManagerDashBoard} from "./components/pages/DeliveryManager/DeliveryMangerDashBoard";
+import {DeliveryManagerOrders} from "./components/pages/DeliveryManager/DeliveryManagerOrders";
 
 function App() {
 
@@ -14,7 +16,9 @@ function App() {
         <Routes>
           <Route path='/delivery' element={<DeliverRiderDashBoard/>}></Route>
           <Route path="/admin" element={<AdminDashBoard />} />
-          <Route exact path="/adminhome" element={<AdminHome />} />
+          <Route exact path="/" element={<AdminHome />} />
+          <Route exact path="/deliveryManager" element={<DeliveryManagerDashBoard />} />
+          <Route exact path="/deliveryManager/orders" element={<DeliveryManagerOrders />} />
         </Routes>
       </div>
     </Router>
