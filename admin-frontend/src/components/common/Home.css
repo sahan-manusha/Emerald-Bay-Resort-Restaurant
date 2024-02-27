@@ -1,0 +1,44 @@
+.adminlogo{
+    width: 200px;
+    margin-right: 1800px;
+}
+
+
+.logo ul li{
+    list-style: none;
+    text-decoration: none;
+}
+
+.logo button{
+    padding: 15px;
+    font-size: 20px;
+    color: white;
+    background-color: lightskyblue;
+    border-radius: 25px;
+    font-weight: 500;
+    border: 0px solid white;
+    margin-top: -90px;
+    margin-left: 100px;
+}
+
+
+.pictext h1{
+    background-color: black;
+    color: white;
+    font-size:90px ;
+}
+
+.pictext{
+    opacity: 0.8;
+    margin-top: -450px;
+    width: 65%;
+    margin-left: 350px;
+}
+
+.adminfooter{
+    margin-top: 500px;
+    background-color: black;
+    color: white;
+    align-items: center;
+    
+}
