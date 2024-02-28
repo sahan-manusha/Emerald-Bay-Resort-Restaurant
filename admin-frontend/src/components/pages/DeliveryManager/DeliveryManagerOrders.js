@@ -1,43 +1,4 @@
-/*import React from 'react'
-import DeliveryManagerSideBar from './DeliveryManagerSideBar.js';
-import "../DeliveryManager/DeliveryManagerOrders.css";
 
-
-
-export const DeliveryManagerOrders = () => {
-  return (
-    <div style={{display:'flex'}}>
-        <div className="ordercontainer" style={{display:'flex'}} >
-
-            <DeliveryManagerSideBar/>
-
-            <div className="orderdash">
-                    <h1 className='name'>Orders</h1>
-
-                    <div className="orderstatus">
-                        
-                        <button id='completed' type="button" className="btn btn-outline-success">Completed</button>
-                        <button id='pending' type="button" className="btn btn-outline-warning">Pending</button>
-                        <button id='ongoing'  type="button" class="btn btn-outline-primary">On Going</button>
-
-
-                        <section id='completed'>
-                            <h1>Completed</h1>
-                            <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-                        </section>
-                        <section id='pending'>
-                            <h1>Pending</h1>
-                        </section>
-                        <section id='ongoing'>
-                            <h1>Ongoing</h1>
-                        </section>
-                       
-                    </div>
-            </div>
-        </div>
-    </div>
-  )
-}*/
 
 import React, { useState } from 'react';
 import DeliveryManagerSideBar from './DeliveryManagerSideBar.js';
@@ -74,9 +35,22 @@ export const DeliveryManagerOrders = () => {
           {/* Conditional rendering based on active section */}
           {activeSection === 'completed' && (
             <section className='completedOrders'>
-              <h1 className='name'>Completed Orders</h1>
+              {/*<h1 className='name'>Completed Orders</h1> */}
 
                 {/*completed order details */ }
+
+                <div className="completeordercard">
+                  <div className="section1">
+                          <h3 className='orderid'>Order Id : order id</h3>
+                          <h3 className='cusid'>Customer Id : id</h3>
+                          
+                          <h3 className="cusname">Customer Name : name</h3>
+                  </div>
+                      <div className="section2">
+                          <h3 className="address">Address : Address</h3>
+                          <h3 className="rider">Rider: RiderName</h3>
+                      </div>
+                  </div>
 
                
               
@@ -90,8 +64,9 @@ export const DeliveryManagerOrders = () => {
                 <div className="ordercard">
 
                     <div className="section1">
-                        <h3 className='cusid'>Customer Id : id</h3>
                         <h3 className='orderid'>Order Id : order id</h3>
+                        <h3 className='cusid'>Customer Id : id</h3>
+                        
                         <h3 className="cusname">Customer Name : name</h3>
                     </div>
                     <div className="section2">
@@ -112,8 +87,20 @@ export const DeliveryManagerOrders = () => {
           )}
           {activeSection === 'ongoing' && (
             <section className='ongoingOrders'>
-              <h1 className='name'>Ongoing Orders</h1>
+              {/*<h1 className='name'>Ongoing Orders</h1> */}
               {/* Content for ongoing orders */}
+              <div className="ongoingordercard">
+                  <div className="section1">
+                          <h3 className='orderid'>Order Id : order id</h3>
+                          <h3 className='cusid'>Customer Id : id</h3>
+                          
+                          <h3 className="cusname">Customer Name : name</h3>
+                  </div>
+                      <div className="section2">
+                          <h3 className="address">Address : Address</h3>
+                          <h3 className="rider">Rider: RiderName</h3>
+                      </div>
+                  </div>
             </section>
           )}
         </div>

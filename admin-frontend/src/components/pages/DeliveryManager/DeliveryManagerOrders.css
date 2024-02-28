@@ -23,7 +23,9 @@
 /* DeliveryManagerOrders.css */
 /* DeliveryManagerOrders.css */
 
-.ordercard {
+.ordercard,
+.completeordercard,
+.ongoingordercard {
     width: 100%;
     display: flex;
     flex-direction: column; /* Make the ordercard a column layout */
