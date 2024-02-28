@@ -25,7 +25,7 @@ export const AdminHome = () => {
         <div className="adminNavbar">
           <Navbar bg='dark' expand="lg" className="bg-body-tertiary" style={{fontSize:'25px'}}>
               <Container fluid>
-                <Navbar.Brand href="#"><img src={logo} alt="logo" width={'200px'} /></Navbar.Brand>
+                <Navbar.Brand href="/"><img src={logo} alt="logo" width={'200px'} /></Navbar.Brand>
                 <Navbar.Toggle aria-controls="navbarScroll" />
                 <Navbar.Collapse id="navbarScroll">
                   <Nav
