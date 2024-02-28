@@ -1,13 +1,13 @@
 import React from 'react';
-import EmployeemanagerSideBar from "../EmployeeManager/EmployeeManagerSideBar";
+import ReservationManagerSideBar from "./ReservationManagerSideBar";
 
-export const EmployeesProfile = () => {
+export const ReservationManagerProfile = () => {
   return (
     <div >
         <div className="emcontainer">
-        <EmployeemanagerSideBar/>
+        <ReservationManagerSideBar />
         <div className="section2" style={{display:'flex'}}>
-        <h1>Profile Section Employee</h1> <br />
+        <h1>Profile Section</h1> <br />
         <h2>hi</h2>
         </div>
         </div>

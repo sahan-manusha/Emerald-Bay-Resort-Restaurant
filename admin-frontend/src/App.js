@@ -8,8 +8,9 @@ import {DeliveryManagerDashBoard} from "./components/pages/DeliveryManager/Deliv
 import {DeliveryManagerOrders} from "./components/pages/DeliveryManager/DeliveryManagerOrders";
 import { DeliveryManagerProfile } from './components/pages/DeliveryManager/Profile';
 import { ReservationManagerDashboard } from './components/pages/ReservationManager/ReservationManagerDashboard';
-import { Employees } from './components/pages/EmployeeManager/Employees';
-import { EmployeesProfile } from './components/pages/EmployeeManager/EmployeesProfile';
+import { ReservationManagerProfile } from './components/pages/ReservationManager/ReservationManagerProfile';
+import { EmployeeManagerProfile } from './components/pages/EmployeeManager/EmployeeManagerProfile';
+import { EmployeeManagerDashboard } from './components/pages/EmployeeManager/EmployeeManagerDashboard';
 
 
 function App() {
@@ -26,8 +27,9 @@ function App() {
           <Route exact path="/deliveryManager/orders" element={<DeliveryManagerOrders />} />
           <Route exact path="/deliveryManager/profile" element={<DeliveryManagerProfile />} />
           <Route exact path="/reservationManager" element={<ReservationManagerDashboard />} />
-          <Route exact path="/employees" element={<Employees />} />
-          <Route exact path="/employeesProfile" element={<EmployeesProfile />} />
+          <Route exact path="/reservationManager/Profile" element={<ReservationManagerProfile />} />
+          <Route exact path="/employeeManager" element={<EmployeeManagerDashboard />} />
+          <Route exact path="/employeeManager/Profile" element={<EmployeeManagerProfile />} />
           
         </Routes>
       </div>
