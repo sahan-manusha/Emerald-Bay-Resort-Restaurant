@@ -2,7 +2,7 @@ import React from 'react'
 import logo from "../images/EMERALDBAYLOGO.png"
 import "../common/Home.css";
 import Button from 'react-bootstrap/Button';
-
+import { useNavigate } from 'react-router-dom'; // Import useHistory from react-router-dom
 import Container from 'react-bootstrap/Container';
 
 import Nav from 'react-bootstrap/Nav';
@@ -13,6 +13,13 @@ import restaurantadminsec from "../images/restaurantadminsec.jpg";
 
 
 export const AdminHome = () => {
+
+  const navigate = useNavigate(); // Initialize useNavigate
+
+  const handleAdminButtonClick = () => {
+    navigate('./admin'); // Redirect to '/admin' route
+  };
+
   return (
     <div>
         <div className="adminNavbar">
@@ -29,7 +36,7 @@ export const AdminHome = () => {
                     
                   </Nav>
                 
-                    <Button variant="outline-success"  style={{ fontSize: '25px' }}>Admin Dashboard</Button>
+                    <Button variant="outline-success"  onClick={handleAdminButtonClick}  style={{ fontSize: '25px' }}>Admin Dashboard</Button>
                   
                 </Navbar.Collapse>
               </Container>
