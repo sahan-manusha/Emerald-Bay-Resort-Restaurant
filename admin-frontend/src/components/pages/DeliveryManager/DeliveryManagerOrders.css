@@ -51,6 +51,10 @@
     background-color: rgb(39, 120, 39);
 }
 
+.ordercard{
+    opacity: 0.8;
+    background-color: rgb(255, 162, 31);
+}
   .section1,
   .section2 {
     display: flex;
