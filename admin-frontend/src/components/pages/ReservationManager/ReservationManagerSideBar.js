@@ -116,25 +116,25 @@ const Sidebar = () => {
           </div> <br />
           <div className="user-details">
             <h5 className="user-name">{user.name}</h5>
-            <p>Delivery Manager</p>
+            <p>Reservation Manager</p>
           </div>
           <hr style={{color:'white', width:'200px', borderWidth:'10px'}}/>
         </CDBSidebarHeader>
 
         <CDBSidebarContent className="sidebar-content">
           <CDBSidebarMenu>
-            <NavLink exact to="/deliveryManager" activeClassName="activeClicked">
+            <NavLink exact to="/reservationManager" activeClassName="activeClicked">
               <CDBSidebarMenuItem icon="columns">Dashboard</CDBSidebarMenuItem>
             </NavLink>
 
             <NavLink exact to="/deliveryManager/profile" activeClassName="activeClicked">
               <CDBSidebarMenuItem icon='user'> Profile </CDBSidebarMenuItem>
             </NavLink>
-            
+
             <NavLink exact to="/deliveryManager/orders" activeClassName="activeClicked">
             <CDBSidebarMenuItem icon="truck">Orders</CDBSidebarMenuItem>
             </NavLink>
-           
+ 
             <NavLink exact to="/analytics" activeClassName="activeClicked">
               <CDBSidebarMenuItem icon="chart-line">Analytics</CDBSidebarMenuItem>
             </NavLink>
