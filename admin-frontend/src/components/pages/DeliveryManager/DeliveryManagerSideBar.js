@@ -129,7 +129,7 @@ const Sidebar = () => {
             <NavLink exact to="/deliveryManager/orders" activeClassName="activeClicked">
             <CDBSidebarMenuItem icon="truck">Orders</CDBSidebarMenuItem>
             </NavLink>
-            <NavLink exact to="/profile" activeClassName="activeClicked">
+            <NavLink exact to="/deliveryManager/profile" activeClassName="activeClicked">
               <CDBSidebarMenuItem icon='user'> Profile </CDBSidebarMenuItem>
             </NavLink>
 
