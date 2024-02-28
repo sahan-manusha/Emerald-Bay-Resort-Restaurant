@@ -1,8 +1,8 @@
 
 .name {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    padding-right: 25px;
+   
     
 }
   
@@ -10,6 +10,9 @@
     font-weight: 700;
     font-size: 55px;
     text-align: center; 
+    margin-top: 20px;
+    color: white;
+    
 }
   
 
@@ -36,4 +39,10 @@
 
 .card:hover{
     background-color: gray;
+}
+
+
+.container{
+    background-color: rgb(255, 145, 0);
+    border-radius: 20px;
 }

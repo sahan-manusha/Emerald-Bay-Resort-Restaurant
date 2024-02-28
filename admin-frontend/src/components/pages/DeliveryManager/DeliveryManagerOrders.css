@@ -1,0 +1,76 @@
+.name{
+    margin-top: 30px;
+    padding-left: 500px;
+    font-size: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.orderstatus button{
+   margin-left: 90px;
+   margin-top: 20px;
+   font-size: 20px;
+}
+
+.completedOrders .name,
+.pendingOrders .name,
+.ongoingOrders .name{
+    margin-top: 25px;
+    margin-left: 50px;
+
+}
+
+
+/* DeliveryManagerOrders.css */
+/* DeliveryManagerOrders.css */
+
+.ordercard {
+    width: 100%;
+    display: flex;
+    flex-direction: column; /* Make the ordercard a column layout */
+    margin-top: 40px;
+    background-color: #4d4dff;
+    margin-left: 100px;
+    padding: 15px;
+    border-radius: 30px;
+    color: white;
+    opacity: 0.8;
+    
+    
+}
+  
+  .section1,
+  .section2 {
+    display: flex;
+    flex-direction: row; /* Display sections in rows */
+    align-items: center; /* Align items vertically */
+    margin-bottom: 10px; /* Add some space between sections */
+}
+  
+  .section1 h3,
+  .section2 h3 {
+    margin-left: 70px; /* Remove default margins */
+}
+  
+  .section2 label {
+    margin-right: 10px;
+    margin-left: 250px; /* Add some space between the label and the dropdown */
+}
+
+.section2 #riderSelect{
+    margin-left: 10px;
+    padding: 5px;
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 30px;
+}
+
+.section2 #riderSelect option{
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 30px;
+}
+
+.submitbtn{
+    margin-left: 30px;
+}
+  
