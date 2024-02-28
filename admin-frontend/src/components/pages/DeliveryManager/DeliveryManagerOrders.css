@@ -41,34 +41,38 @@
     padding: 15px;
     border-radius: 30px;
     color: white;
-    opacity: 0.8;
-    
-    
+    opacity: 0.8;   
 }
   
 .completeordercard{
     opacity: 0.8;
-    background-color: rgb(39, 120, 39);
+    background-color: rgb(5, 63, 5);
 }
 
 .ordercard{
     opacity: 0.8;
-    background-color: rgb(255, 162, 31);
+    background-color: rgb(199, 128, 29);
 }
-  .section1,
-  .section2 {
+
+.ongoingordercard{
+    opacity: 0.8;
+    background-color: rgb(112, 6, 6);
+}
+
+.section1,
+.section2 {
     display: flex;
     flex-direction: row; /* Display sections in rows */
     align-items: center; /* Align items vertically */
     margin-bottom: 10px; /* Add some space between sections */
 }
   
-  .section1 h3,
-  .section2 h3 {
+.section1 h3,
+.section2 h3 {
     margin-left: 70px; /* Remove default margins */
 }
   
-  .section2 label {
+.section2 label {
     margin-right: 10px;
     margin-left: 250px; /* Add some space between the label and the dropdown */
 }
@@ -90,4 +94,3 @@
 .submitbtn{
     margin-left: 30px;
 }
-  

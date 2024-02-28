@@ -2,7 +2,7 @@ import React from 'react';
 import EmployeeManagerSideBar from "../EmployeeManager/EmployeeManagerSideBar";
 
 
-export const Employees = () => {
+export const EmployeeManagerDashboard = () => {
   return (
     <div style={{display:'flex'}}>
         <EmployeeManagerSideBar/>
