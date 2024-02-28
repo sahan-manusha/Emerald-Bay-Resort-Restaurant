@@ -2,7 +2,7 @@
 .name {
     display: flex;
     padding-right: 25px;
-   
+    margin-right: 300px;
     
 }
   
@@ -45,4 +45,5 @@
 .container{
     background-color: rgb(255, 145, 0);
     border-radius: 20px;
+    padding: 50px;
 }

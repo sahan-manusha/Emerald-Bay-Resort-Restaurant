@@ -6,6 +6,7 @@ import { AdminDashBoard } from "./components/pages/AdminDashBoard";
 import {AdminHome} from "./components/pages/Home";
 import {DeliveryManagerDashBoard} from "./components/pages/DeliveryManager/DeliveryMangerDashBoard";
 import {DeliveryManagerOrders} from "./components/pages/DeliveryManager/DeliveryManagerOrders";
+import { DeliveryManagerProfile } from './components/pages/DeliveryManager/Profile';
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
           <Route exact path="/" element={<AdminHome />} />
           <Route exact path="/deliveryManager" element={<DeliveryManagerDashBoard />} />
           <Route exact path="/deliveryManager/orders" element={<DeliveryManagerOrders />} />
+          <Route exact path="/deliveryManager/profile" element={<DeliveryManagerProfile />} />
         </Routes>
       </div>
     </Router>
