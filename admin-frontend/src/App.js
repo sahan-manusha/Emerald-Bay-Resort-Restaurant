@@ -7,6 +7,7 @@ import {AdminHome} from "./components/pages/Home";
 import {DeliveryManagerDashBoard} from "./components/pages/DeliveryManager/DeliveryMangerDashBoard";
 import {DeliveryManagerOrders} from "./components/pages/DeliveryManager/DeliveryManagerOrders";
 import { DeliveryManagerProfile } from './components/pages/DeliveryManager/Profile';
+import { ReservationManagerDashboard } from './components/pages/ReservationManager/ReservationManagerDashboard';
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
           <Route exact path="/deliveryManager" element={<DeliveryManagerDashBoard />} />
           <Route exact path="/deliveryManager/orders" element={<DeliveryManagerOrders />} />
           <Route exact path="/deliveryManager/profile" element={<DeliveryManagerProfile />} />
+          <Route exact path="/reservationManager" element={<ReservationManagerDashboard />} />
         </Routes>
       </div>
     </Router>

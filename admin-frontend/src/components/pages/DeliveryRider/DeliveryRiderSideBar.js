@@ -109,7 +109,7 @@ const Sidebar = () => {
 
   return (
     <div style={{ display: 'flex', height: '100vh', overflow: 'scroll initial' }}>
-      <CDBSidebar textColor="#fff" backgroundColor="#0096FF">
+      <CDBSidebar textColor="#fff" backgroundColor="#23395d">
         <CDBSidebarHeader prefix={<i className="fa fa-bars fa-large"></i>}>
           <div className="avatar">
             <img src={user.image} alt={user.name} style={{ width: '150px', borderRadius: '50%', border:'3px solid black' }} />
@@ -126,14 +126,15 @@ const Sidebar = () => {
             <NavLink exact to="/" activeClassName="activeClicked">
               <CDBSidebarMenuItem icon="columns">Dashboard</CDBSidebarMenuItem>
             </NavLink>
-            <NavLink exact to="/" activeClassName="activeClicked">
-            <CDBSidebarMenuItem icon="truck">Orders</CDBSidebarMenuItem>
-            </NavLink>
-            <NavLink exact to="/profile" activeClassName="activeClicked">
+
+            <NavLink exact to="/deliveryManager/profile" activeClassName="activeClicked">
               <CDBSidebarMenuItem icon='user'> Profile </CDBSidebarMenuItem>
             </NavLink>
 
-            
+            <NavLink exact to="/" activeClassName="activeClicked">
+            <CDBSidebarMenuItem icon="truck">Orders</CDBSidebarMenuItem>
+            </NavLink>
+
             <NavLink exact to="/analytics" activeClassName="activeClicked">
               <CDBSidebarMenuItem icon="chart-line">Analytics</CDBSidebarMenuItem>
             </NavLink>
