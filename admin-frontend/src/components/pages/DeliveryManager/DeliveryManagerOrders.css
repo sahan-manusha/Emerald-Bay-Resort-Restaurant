@@ -16,7 +16,13 @@
 .ongoingOrders .name{
     margin-top: 25px;
     margin-left: 50px;
+    
+}
 
+.completedOrders,
+.pendingOrders,
+.ongoingOrders{
+    width: 1200px;
 }
 
 
@@ -40,6 +46,11 @@
     
 }
   
+.completeordercard{
+    opacity: 0.8;
+    background-color: rgb(39, 120, 39);
+}
+
   .section1,
   .section2 {
     display: flex;
