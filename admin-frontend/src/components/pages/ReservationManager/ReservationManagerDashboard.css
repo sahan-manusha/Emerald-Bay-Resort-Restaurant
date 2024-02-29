@@ -24,29 +24,24 @@
 }
 
 .ongoing,
-.succes,
-.availabledeliveryman{
+.cancel{
     width: 300px;
     margin-left: 30px;
 }
 
-.succes{
+.ongoing{
     margin-left: 250px;
 }
 
 .ongoingimg,
-.succesimg{
+.cancelimg{
     width: 50px;
     margin-top: 20px;
     margin-bottom: 20px;
 }
 
-.availableimg{
-    margin-top: 30px;
-    margin-bottom: 30px;
-}
-
-.ongoingimg{
+.ongoingimg
+.cancelimg{
     margin-top: 30px;
     margin-bottom: 30px;
 }
