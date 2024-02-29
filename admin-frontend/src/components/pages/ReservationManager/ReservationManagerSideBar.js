@@ -132,15 +132,15 @@ const Sidebar = () => {
             </NavLink>
 
             <NavLink exact to="/reservationManager/tableReservations" activeClassName="activeClicked">
-            <CDBSidebarMenuItem icon="truck">Table Reservations</CDBSidebarMenuItem>
+            <CDBSidebarMenuItem icon="table">Table Reservations</CDBSidebarMenuItem>
             </NavLink>
 
             <NavLink exact to="/reservationManager/vipRooms" activeClassName="activeClicked">
-              <CDBSidebarMenuItem icon="chart-line">VIP Room Bookings</CDBSidebarMenuItem>
+              <CDBSidebarMenuItem icon="crown">VIP Room Bookings</CDBSidebarMenuItem>
             </NavLink>
 
             <NavLink exact to="/reservationManager/events" activeClassName="activeClicked">
-              <CDBSidebarMenuItem icon="chart-line">Events</CDBSidebarMenuItem>
+              <CDBSidebarMenuItem icon="tree">Events</CDBSidebarMenuItem>
             </NavLink>
 
             <NavLink exact to="/hero404" target="_blank" activeClassName="activeClicked">
