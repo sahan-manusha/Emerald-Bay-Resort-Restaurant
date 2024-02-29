@@ -21,19 +21,19 @@ const adminData = [
   {
     id: 2,
     name: 'Admin 2',
-    role: 'Product Manager',
+    role: 'Order Manager',
     image: adminimg,
   },
   {
     id: 3,
     name: 'Admin 3',
-    role: 'Order Manager',
+    role: 'Delivery Manager',
     image: adminimg,
   },
   {
     id: 4,
     name: 'Admin 4',
-    role: 'Delivery Manager',
+    role: 'Reservation Manager',
     image: adminimg,
   },
   {
