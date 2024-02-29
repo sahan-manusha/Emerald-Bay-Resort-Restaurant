@@ -1,8 +1,6 @@
-
 import React from 'react';
 import DeliveryManagerSideBar from './DeliveryManagerSideBar.js';
 import  "../../../components/pages/DeliveryManager/DeliveryManagerProfile.css";
-
 
 
 

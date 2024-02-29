@@ -99,7 +99,7 @@ import { faTruck } from '@fortawesome/free-solid-svg-icons';
 
 const Sidebar = () => {
   const user = {
-    name: 'John Doe',
+    name: 'Kavini',
     image: userImage,
   };
 
@@ -127,24 +127,20 @@ const Sidebar = () => {
               <CDBSidebarMenuItem icon="columns">Dashboard</CDBSidebarMenuItem>
             </NavLink>
 
-            <NavLink exact to="/deliveryManager/profile" activeClassName="activeClicked">
+            <NavLink exact to="/reservationManager/profile" activeClassName="activeClicked">
               <CDBSidebarMenuItem icon='user'> Profile </CDBSidebarMenuItem>
             </NavLink>
 
-            <NavLink exact to="/deliveryManager/orders" activeClassName="activeClicked">
-            <CDBSidebarMenuItem icon="table">Table Reservation</CDBSidebarMenuItem>
+            <NavLink exact to="/reservationManager/tableReservations" activeClassName="activeClicked">
+            <CDBSidebarMenuItem icon="truck">Table Reservations</CDBSidebarMenuItem>
             </NavLink>
 
-            <NavLink exact to="/deliveryManager/orders" activeClassName="activeClicked">
-            <CDBSidebarMenuItem icon="crown">VIP Room Reservation</CDBSidebarMenuItem>
+            <NavLink exact to="/reservationManager/vipRooms" activeClassName="activeClicked">
+              <CDBSidebarMenuItem icon="chart-line">VIP Room Bookings</CDBSidebarMenuItem>
             </NavLink>
 
-            <NavLink exact to="/deliveryManager/orders" activeClassName="activeClicked">
-            <CDBSidebarMenuItem icon="tree">Reservation</CDBSidebarMenuItem>
-            </NavLink>
- 
-            <NavLink exact to="/analytics" activeClassName="activeClicked">
-              <CDBSidebarMenuItem icon="chart-line">Analytics</CDBSidebarMenuItem>
+            <NavLink exact to="/reservationManager/events" activeClassName="activeClicked">
+              <CDBSidebarMenuItem icon="chart-line">Events</CDBSidebarMenuItem>
             </NavLink>
 
             <NavLink exact to="/hero404" target="_blank" activeClassName="activeClicked">

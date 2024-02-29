@@ -15,7 +15,7 @@ export const DeliverRiderDashBoard = () => {
 
 import React from 'react';
 import ReservationManagerSideBar from './ReservationManagerSideBar.js';
-import  "../../../components/pages/DeliveryManager/DeliveryManagerDashBoard.css";
+import  "../../../components/pages/ReservationManager/ReservationManagerDashboard.css";
 import deliverylorry from "../../images/deliverylorry.png";
 import succesimg from "../../images/successmark.png";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -30,23 +30,16 @@ export const ReservationManagerDashboard = () => {
       <div className="deliveryridercontainer">
         
         <div className="orderset">
-          <div className="succes">
-          <img  className="succesimg" src={succesimg} alt="correct" />
-              <h3>Success Delivery</h3>
+
+          <div className="ongoing">
+          <img  className="ongoingimg" src={succesimg} alt="correct" />
+              <h3>Ongoing Reservations</h3>
               <h2 style={{marginBottom:'5px'}}>100</h2>
           </div>
 
-          <div className="ongoing">
-              
-              <FontAwesomeIcon  className="ongoingimg" icon={faTruckFast} fade size="2xl" style={{color: "#00ff2a",}} />
-              <h3>Ongoing Delivery</h3>
-              <h2 style={{marginBottom:'5px'}}>12</h2>
-          </div>
-
-          <div className="availabledeliveryman">
-              <FontAwesomeIcon className='availableimg' icon={faUser} bounce  size='2xl' style={{color: "#63E6BE"}} />
-          
-              <h3>Active Riders</h3>
+          <div className="cancel">
+          <img  className="ongoingimg" src={succesimg} alt="correct" />
+              <h3>Cancelled Reservations</h3>
               <h2 style={{marginBottom:'5px'}}>5</h2>
           </div>
         </div>
@@ -56,4 +49,3 @@ export const ReservationManagerDashboard = () => {
     </div>
   );
 };
-
