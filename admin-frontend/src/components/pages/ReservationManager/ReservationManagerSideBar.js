@@ -134,7 +134,7 @@ const Sidebar = () => {
             <NavLink exact to="/reservationManager/tableReservations" activeClassName="activeClicked">
             <CDBSidebarMenuItem icon="truck">Table Reservations</CDBSidebarMenuItem>
             </NavLink>
- 
+
             <NavLink exact to="/reservationManager/vipRooms" activeClassName="activeClicked">
               <CDBSidebarMenuItem icon="chart-line">VIP Room Bookings</CDBSidebarMenuItem>
             </NavLink>
