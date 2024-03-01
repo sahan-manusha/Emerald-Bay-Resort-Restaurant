@@ -1,0 +1,53 @@
+.profilepic{
+    margin-left: 500px;
+    margin-top: 5px;
+    
+}
+
+.proimg{
+    border: 3px solid black;
+    border-radius: 50%;
+    padding: 20px;
+    margin-left: -500px;
+    margin-top: 10px;
+   
+}
+.profilecontainer{
+    border: 1px sloid black;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: antiquewhite;
+    width: 80%;
+    margin-left: 250px;
+    margin-top: 65px;
+}
+
+.personalinfo label{
+   
+    margin-top: 30px;
+    font-size: 25px;
+    justify-self: end; /* Align labels to the end of the grid cell */
+    
+}
+
+.personalinfo label span{
+    margin-left: 30px;
+    justify-self: start; /* Align spans to the start of the grid cell */
+}
+
+
+.personalinfo {
+    display: grid;
+    grid-template-columns:max-content; /* First column for labels, second column for spans */
+    grid-row-gap: 1px; /* Adjust as needed */
+    font-size: 25px;
+}
+
+.updateuser button{
+    padding: 20px;
+    position: relative;
+    top: -600px;
+    left: 700px;
+    border-radius: 10px;background-color: rgb(218, 221, 221);
+}
