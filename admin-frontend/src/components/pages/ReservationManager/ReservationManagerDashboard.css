@@ -2,21 +2,21 @@
     position: relative;
     top: -800px;
 }*/
-
+/*
 .dashboard-container {
     display: flex;
 }
   
 .orderset {
     display: flex;
-    justify-content: space-between; /* Distribute items evenly */
+    justify-content: space-between; /* Distribute items evenly 
     margin-top: 40px;
 }
 
 .orderset > div {
    /* width: calc(33.33% - 10px); /* Adjust width based on number of boxes */
     /* Adjust margin/padding as needed */
-    /* For demonstration purpose, added some styling */
+    /* For demonstration purpose, added some styling 
     border: 1px solid #000;
     background-color: white;
     box-sizing: border-box;
@@ -44,4 +44,40 @@
 .cancelimg{
     margin-top: 30px;
     margin-bottom: 30px;
+}*/
+
+.orderset {
+    display: flex;
+	
+   
+    background-color: white;
+    box-sizing: border-box;
+    border-radius: 5px;
+
 }
+
+.ongoing,
+.succes,
+.availabledeliveryman{
+    width: 300px;
+    margin-left: 30px;
+
+}
+
+
+.succes{
+    margin-left: 250px;
+}
+.ongoingimg,
+.succesimg{
+    width: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.availableimg{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.ongoingimg{
+    margin-top: 30px;
+    margin-bottom: 30px;}
